@@ -1,4 +1,132 @@
-.wrapper {
-    margin:30px;
-    background:#7630Fb
-}
+* {
+        margin: 0;
+        padding: 0;
+    }
+
+    body,
+    html {
+        width: 100%;
+        height: 100%;
+        background-color: #e1e8ee;
+    }
+
+    .main {
+        width: 820px;
+        background-color: #fff;
+        margin: 30px auto;
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .top {
+        height: 220px;
+        background: #0b70bd;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /* 头像 */
+    .top .pic {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        margin-right: 30px;
+        overflow: hidden;
+    }
+
+    .top .pic img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .top-left {
+        margin-left: 30px;
+        color: #fff;
+    }
+
+    /* 标题 */
+    .title {
+        font-size: 30px;
+    }
+
+    /* 介绍 */
+    .introduce {
+        font-size: 13px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    .my {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 12px;
+        line-height: 12px;
+        margin-top: 10px;
+    }
+
+    .my span {
+        margin-right: 12px;
+        padding-right: 12px;
+        border-right: 1px solid #fff;
+    }
+
+    .my span:last-child {
+        border: none;
+    }
+
+    /* 简历部分 */
+    .main-box {
+        padding: 20px 40px;
+    }
+
+    /* 模块 */
+    .block {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #f4f4f4;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    /* 标题 */
+    .block .tit {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: bold;
+        width: 120px;
+    }
+
+    .right {
+        flex: 1;
+    }
+
+    .right .tip {
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .right .tip span {
+        margin-right: 20px;
+        font-size: 13px;
+    }
+
+    .right .tip b {
+        margin-right: 30px;
+        font-size: 14px;
+    }
+
+    .word {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .right ul li {
+        line-height: 28px;
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
